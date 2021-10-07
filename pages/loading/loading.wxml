@@ -1,7 +1,7 @@
 <!--pages/loading/loading.wxml-->
 <view>
   <view class="bg">
-  <image mode="widthFix" src="../../images/loading_bg.png"></image>
+  <image mode="widthFix" src="https://z3.ax1x.com/2021/10/08/59BB2F.png"></image>
   <view class="bg-link" bindtap="choice_link"></view>
   </view>
 </view>

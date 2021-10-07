@@ -1,6 +1,6 @@
 <view>
   <view class="bg">
-  <image mode="widthFix" src="../../images/choice_bg.png"></image>
+  <image mode="widthFix" src="https://z3.ax1x.com/2021/10/08/59B6bR.md.png"></image>
   <view class="bg-link1" bindtap="zhongqiu_link"></view>
   <view class="bg-link2" bindtap="hall_link"></view>
   </view>

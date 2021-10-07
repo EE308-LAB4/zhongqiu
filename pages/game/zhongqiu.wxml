@@ -7,23 +7,23 @@
   
   <view class="zhezhao-show" style="display: {{zhezhao_show}};"bindtap="close_result" catchtouchmove="true">
     <view class="">
-      <image src='../../images/show1.png' mode="widthFix" class='lr-show-img'></image>
+      <image src='https://z3.ax1x.com/2021/10/08/59DGRO.png' mode="widthFix" class='lr-show-img'></image>
       <view class="result-list">
-        <image src='../../images/show2.png' mode="widthFix" class='lr-show-img'></image>
+        <image src='https://z3.ax1x.com/2021/10/08/59DtQe.png' mode="widthFix" class='lr-show-img'></image>
         <view class="result-all">
           <view class="result-item" wx:for="{{result_list}}">
             <span class="result-name">{{item.result}}</span><span>{{item.word}}</span>
           </view>
         </view>
       </view>
-        <image src='../../images/show3.png' mode="widthFix" class='lr-show-img'></image>
+        <image src='https://z3.ax1x.com/2021/10/08/59DNsH.png' mode="widthFix" class='lr-show-img'></image>
     </view>
   </view>
   
-  <image src='../../images/01.png' mode="widthFix" class='lr-img'></image>
+  <image src='https://z3.ax1x.com/2021/10/08/59BTrd.png' mode="widthFix" class='lr-img'></image>
   
   <view class='game-area'>
-    <image src='../../images/02.png' mode="widthFix" class='lr-img zhongqiu-bg'></image>
+    <image src='https://z3.ax1x.com/2021/10/08/59BjG8.png' mode="widthFix" class='lr-img zhongqiu-bg'></image>
     <view class='wan'>
       <image src='{{image_1}}' class='img-1 {{move_1}}'></image>
       <image src='{{image_2}}' class='img-2 {{move_2}}'></image>
@@ -35,7 +35,7 @@
   </view>
   
   <view class='game-start'>
-    <image src='../../images/03.png' mode="widthFix" class='lr-img zhongqiu-bg'></image>
+    <image src='https://z3.ax1x.com/2021/10/08/59DSMQ.png' mode="widthFix" class='lr-img zhongqiu-bg'></image>
     <view class='button-area'>
       <view class='game-share'>
         <button class="start-button play-btn"  disabled="{{play_btn}}" bindtap='gameSucstar'></button>
