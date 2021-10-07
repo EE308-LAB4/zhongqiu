@@ -1,0 +1,23 @@
+.bg{
+  position: relative;
+  width: 100%;
+}
+.bg image{
+  width: 100%;
+}
+.bg-link1 {
+  position: absolute;
+  width: 750rpx;
+  height: 800rpx;
+  left: 50%;
+  bottom: 500rpx;
+  transform: translate(-50%,0);
+}
+.bg-link2 {
+  position: absolute;
+  width: 750rpx;
+  height: 800rpx;
+  left: 50%;
+  bottom: 900rpx;
+  transform: translate(-50%,0);
+}

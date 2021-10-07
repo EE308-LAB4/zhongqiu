@@ -1,0 +1,7 @@
+<view>
+  <view class="bg">
+  <image mode="widthFix" src="../../images/choice_bg.png"></image>
+  <view class="bg-link1" bindtap="zhongqiu_link"></view>
+  <view class="bg-link2" bindtap="hall_link"></view>
+  </view>
+</view>

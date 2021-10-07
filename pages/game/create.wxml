@@ -1,0 +1,6 @@
+<view>
+  <view class="bg">
+  <image mode="widthFix" src="../../images/create.png"></image>
+  <view class="bg-link" bindtap="zhongqiu_link"></view>
+  </view>
+</view>

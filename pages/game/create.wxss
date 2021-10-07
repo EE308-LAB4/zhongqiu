@@ -1,0 +1,14 @@
+.bg{
+  position: relative;
+  width: 100%;
+}
+.bg image{
+  width: 100%;
+}
+.bg-link {
+  position: absolute;
+  width: 750rpx;
+  height: 150rpx;
+  left: 50%;
+  bottom: 600rpx;
+  transform: translate(-50%,0);}

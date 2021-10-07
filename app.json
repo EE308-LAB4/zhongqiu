@@ -1,0 +1,19 @@
+{
+  "pages":[
+    "pages/loading/loading",
+    "pages/choice/choice",
+    "pages/game/hall",
+    "pages/game/create",
+    "pages/game/zhongqiu",
+    "pages/game/mutiplay",
+    "pages/game/rules"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#DC8365",
+    "navigationBarTitleText": "中秋博饼会",
+    "navigationBarTextStyle":"white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
