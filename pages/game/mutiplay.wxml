@@ -7,16 +7,16 @@
   
   <view class="zhezhao-show" style="display: {{zhezhao_show}};"bindtap="close_result" catchtouchmove="true">
     <view class="">
-      <image src='https://z3.ax1x.com/2021/10/08/59DGRO.png' mode="widthFix" class='lr-show-img'></image>
+      <image src='https://z3.ax1x.com/2021/10/09/5FylWR.png' mode="widthFix" class='lr-show-img'></image>
       <view class="result-list">
-        <image src='https://z3.ax1x.com/2021/10/08/59DtQe.png' mode="widthFix" class='lr-show-img'></image>
+        <image src='https://z3.ax1x.com/2021/10/09/5Fyrlt.png' mode="widthFix" class='lr-show-img'></image>
         <view class="result-all">
           <view class="result-item" wx:for="{{result_list}}">
             <span class="result-name">{{item.result}}</span><span>{{item.word}}</span>
           </view>
         </view>
       </view>
-        <image src='https://z3.ax1x.com/2021/10/08/59DNsH.png' mode="widthFix" class='lr-show-img'></image>
+        <image src='https://z3.ax1x.com/2021/10/09/5F6CnK.png' mode="widthFix" class='lr-show-img'></image>
     </view>
   </view>
   
