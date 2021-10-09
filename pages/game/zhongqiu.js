@@ -36,12 +36,11 @@ Page({
     result_list:[]
   },
 
-
-  // onComponentsShow() {
-  //   this.bottomNavigation = this.selectComponent("#game")
-  //   this.bottomNavigation._displayShow()
-  // },
-
+  async gameSucstar() {
+    var that = this;
+    that.gameStartFunc();
+  },
+  
   async gameStart(e) {
     var that = this
         that.gameStartFunc();
@@ -49,11 +48,6 @@ Page({
           sucplay: "block",
           telplay: "none",
         })
-  },
-
-  async gameSucstar() {
-    var that = this;
-    that.gameStartFunc();
   },
 
   async gameStartFunc() {
@@ -90,11 +84,6 @@ Page({
         move_6: '',
       })
       setTimeout(() => {
-        // wx.showToast({
-        //   title: game_list['name'],
-        //   icon: 'success',
-        //   duration: 2000
-        // })
         that.setData({
           name: game_list['name'],
         })
