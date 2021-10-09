@@ -122,11 +122,7 @@ Page({
       zhezhao:"none",
     })
   },
-  into_rules:function(){
-    wx.navigateTo({
-      url: '/pages/game/rules',
-    })
-  },
+  
   show_result:function(){
     var that=this;
     const tel = wx.getStorageSync('zqtel')
@@ -138,6 +134,13 @@ Page({
     })
     
   },
+
+  into_rules:function(){
+    wx.navigateTo({
+      url: '/pages/game/rules',
+    })
+  },
+  
   close_result:function(){
     var that=this;
     that.setData({
