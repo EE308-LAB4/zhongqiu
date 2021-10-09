@@ -36,11 +36,24 @@ Page({
     result_list:[]
   },
 
+<<<<<<< HEAD
+=======
+
+  // onComponentsShow() {
+  //   this.bottomNavigation = this.selectComponent("#game")
+  //   this.bottomNavigation._displayShow()
+  // },
+
+>>>>>>> main
   async gameSucstar() {
     var that = this;
     that.gameStartFunc();
   },
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> main
   async gameStart(e) {
     var that = this
         that.gameStartFunc();
@@ -111,11 +124,7 @@ Page({
       zhezhao:"none",
     })
   },
-  into_rules:function(){
-    wx.navigateTo({
-      url: '/pages/game/rules',
-    })
-  },
+  
   show_result:function(){
     var that=this;
     const tel = wx.getStorageSync('zqtel')
@@ -127,6 +136,13 @@ Page({
     })
     
   },
+
+  into_rules:function(){
+    wx.navigateTo({
+      url: '/pages/game/rules',
+    })
+  },
+  
   close_result:function(){
     var that=this;
     that.setData({
