@@ -42,6 +42,11 @@ Page({
   //   this.bottomNavigation._displayShow()
   // },
 
+  async gameSucstar() {
+    var that = this;
+    that.gameStartFunc();
+  },
+
   async gameStart(e) {
     var that = this
         that.gameStartFunc();
@@ -49,11 +54,6 @@ Page({
           sucplay: "block",
           telplay: "none",
         })
-  },
-
-  async gameSucstar() {
-    var that = this;
-    that.gameStartFunc();
   },
 
   async gameStartFunc() {
