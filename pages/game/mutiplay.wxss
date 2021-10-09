@@ -8,14 +8,6 @@
   display: block;
 }
 
-.container .game-information {
-  position: relative;
-  top: 344rpx;
-  margin: 0 auto;
-  width: 450rpx;
-  display: flex;
-  flex-wrap: wrap;
-}
 
 .container .game-information .left image{
   width: 112rpx;
@@ -35,6 +27,15 @@
   text-align: center;
   font-size: 14px;
   color: #fff;
+}
+
+.container .game-information {
+  position: relative;
+  top: 344rpx;
+  margin: 0 auto;
+  width: 450rpx;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .container .game-information .right .leaderboard {
