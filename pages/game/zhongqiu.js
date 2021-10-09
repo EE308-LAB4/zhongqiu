@@ -36,24 +36,12 @@ Page({
     result_list:[]
   },
 
-<<<<<<< HEAD
-=======
 
-  // onComponentsShow() {
-  //   this.bottomNavigation = this.selectComponent("#game")
-  //   this.bottomNavigation._displayShow()
-  // },
-
->>>>>>> main
   async gameSucstar() {
     var that = this;
     that.gameStartFunc();
   },
-<<<<<<< HEAD
-  
-=======
 
->>>>>>> main
   async gameStart(e) {
     var that = this
         that.gameStartFunc();
